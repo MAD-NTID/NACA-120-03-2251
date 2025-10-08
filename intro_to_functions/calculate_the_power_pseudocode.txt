@@ -1,0 +1,10 @@
+start
+	function calculate_power(base, power)
+		return base ^ power
+	end function
+
+	base = input("Enter the Base: ")
+	power = input("Enter the Power: ")
+
+	print(calculate_power(base, power))
+end

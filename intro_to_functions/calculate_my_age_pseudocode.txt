@@ -1,0 +1,10 @@
+start
+    function calculate_my_age(birth_year)
+    	CURRENT_YEAR = 2025
+	    age = CURRENT_YEAR - birth_year
+    end function
+
+    birth_year = input("Enter your birth year: ")
+
+    print(calculate_my_age(birth_year))
+end

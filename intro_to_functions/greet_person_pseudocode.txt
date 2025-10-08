@@ -1,0 +1,9 @@
+start
+	function greet_person(person_name)
+		print "Hello <person_name>"
+	end function
+
+	person_name = input("Inpur your name: ")
+
+	greet_person(person_name)
+end
