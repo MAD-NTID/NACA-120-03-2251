@@ -1,8 +1,6 @@
 cards = []
 
 # Now, you need to create all 52 cards
-# 2 * 4 * 13 
-
 for rank in ("A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"):
     for suit in ("hearts", "diamonds", "club", "spade"):
         if suit in ("hearts, diamonds"):
@@ -14,7 +12,7 @@ for rank in ("A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"):
                 (rank, suit, "black")
             )
 
-for card in cards:
-    print(card)
+        # print created card
+        print(cards[-1])
 
 print(f"There are a total of {len(cards)}")
