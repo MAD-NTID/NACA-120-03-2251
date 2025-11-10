@@ -60,7 +60,13 @@ def prompt_age():
             print("Invalid Age\n")
 
 def show_pets():
-    print(veterinarian_pet_dictionary)
+    # This just prints the whole dictionary and everything in it
+    # print(veterinarian_pet_dictionary)
+
+    # This displays only the patient number for each pet (much cleaner)
+    listing = 1
+    for key in veterinarian_pet_dictionary:
+        print(f"{listing}) - Patient ID: {key}")
 
 def main():
     print("Welcome to AXSA's Veterinary Hospital\n")
